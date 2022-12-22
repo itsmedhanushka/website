@@ -1,0 +1,321 @@
+  /* HOME PAGE */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+  * {
+      box-sizing: border-box;
+      font-family: 'poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body {
+      background-color: rgb(147, 155, 155);
+      margin: auto;
+      font-family: 'poppins', sans-serif;
+  }
+  /* title start */
+  
+  .title {
+      min-height: 55vh;
+      background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../image/headimg.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      border-style: cover;
+      position: relative;
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  .textt {
+      text-align: center;
+      padding-top: 150px;
+      color: #fff;
+      font-size: 38px;
+  }
+  /* .container {
+      width: 80%;
+      overflow: hidden;
+      margin: 100px;
+  } */
+  /* .container .text1 {
+      size: 12px;
+      margin: center;
+  }
+  
+  .container .text2 {
+      size: 12px;
+      margin-left: 300px;
+  } */
+  /* title end */
+  
+  #main_header {
+      text-align: center;
+      font-style: 'poppins', sans-serif;
+      font-size: 30px;
+  }
+  
+  .header {
+      overflow: hidden;
+      background-color: rgb(255, 255, 255);
+      padding: 20px 30px;
+  }
+  
+  .header a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 18px;
+      text-decoration: none;
+      font-size: 18px;
+      line-height: 18px;
+      border-radius: 05px;
+      border: 1px solid gray;
+  }
+  
+  .header a:hover {
+      background-color: dodgerblue;
+      color: rgb(255, 255, 255);
+  }
+  
+  .header a.active {
+      background-color: rgb(12, 12, 250);
+      color: rgb(222, 252, 56);
+  }
+  
+  .header-right {
+      float: right;
+  }
+  
+  input {
+      padding: 5px;
+      margin-top: 18px;
+      float: left;
+      border-color: 5px, rgb(56, 15, 15);
+      border-radius: 15px;
+      font-size: 15px;
+      font-weight: bold;
+      margin-right: 10px;
+      margin: auto;
+  }
+  
+  input[type=submit]:hover {
+      background-color: dodgerblue;
+      color: #fff;
+  }
+  /* nav bar end */
+  /* body start */
+  
+  .text3 {
+      color: rgb(5, 5, 5);
+      background-color: rgb(255, 255, 255);
+      margin: auto;
+      font-size: 50px;
+      font-weight: bold;
+  }
+  /* welcome note end */
+  
+  .bg {
+      min-height: 55vh;
+      background-image: linear-gradient(rgba(4, 9, 30, 0.473), rgba(4, 9, 30, 0.486)), url(../image/headimg.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      border-style: cover;
+      position: relative;
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  .container2 {
+      width: 80%;
+      overflow: hidden;
+      margin: auto;
+      border-top: 5px;
+      background-color: rgba(84, 175, 114, 0);
+  }
+  
+  .container3 {
+      margin: center;
+      width: 100%;
+      margin: inline auto;
+      overflow: hidden;
+      height: 400px;
+  }
+  
+  .showcase p {
+      margin: 250px 20px 20px 260px;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      line-height: 1.2em;
+      font-size: 30px;
+      margin: auto;
+  }
+  
+  .box2 {
+      width: 30%;
+      height: 20%;
+      flex-direction: row;
+      float: left;
+      padding: 0px;
+      box-sizing: border-box;
+      text-align: center;
+      color: dodgerblue;
+      margin: 100px 0px 50px 0px;
+      margin-right: 0px;
+  }
+  
+  .box3 {
+      width: 30%;
+      height: 20%;
+      flex-direction: row;
+      float: left;
+      padding: 0px;
+      box-sizing: border-box;
+      text-align: center;
+      color: dodgerblue;
+      margin: 100px 0px 50px 0px;
+      margin-left: 60px;
+  }
+  
+  .box4 {
+      width: 30%;
+      height: 20%;
+      flex-direction: row;
+      float: right;
+      padding: 0px;
+      box-sizing: border-box;
+      text-align: center;
+      color: dodgerblue;
+      margin: 100px 0px 5px 0px;
+      margin-right: 0px;
+  }
+  
+  .box5 {
+      width: 30%;
+      height: 20%;
+      flex-direction: row;
+      float: left;
+      padding: 0px;
+      box-sizing: border-box;
+      text-align: center;
+      color: dodgerblue;
+      margin: 10px auto;
+      margin-left: 190px;
+  }
+  
+  .box6 {
+      width: 30%;
+      height: 20%;
+      flex-direction: row;
+      float: right;
+      padding: 0px;
+      box-sizing: border-box;
+      text-align: center;
+      color: dodgerblue;
+      margin: 10px 0px 0px 10px;
+      margin-right: 170px;
+  }
+  
+  .boxx p a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-family: Bell Gothic Std Light;
+      font-size: 12px;
+      border: 2px;
+      padding: 0px;
+      border-radius: 5px;
+  }
+  
+  .boxx p a:hover {
+      color: #fff;
+      background-color: dodgerblue;
+  }
+  
+  .boxx img {
+      width: 50%;
+      padding-bottom: 0px;
+      opacity: 1.0;
+  }
+  
+  .boxx img:hover {
+      opacity: 0.5;
+      cursor: pointer;
+  }
+  
+  .boxx h1 {
+      font-size: 12px;
+      color: rgb(241, 245, 248);
+      text-shadow: 1px 1px 2px black, 0 0 25px rgb(14, 113, 241), 0 0 5px rgb(119, 0, 255);
+      font-weight: bold;
+  }
+  /* end body */
+  /* start footer */
+  
+  .footer {
+      border-top: 1px solid rgb(112, 110, 110);
+      /* border-color: rgba(255, 255, 255, 0);*/
+      background-color: rgba(68, 69, 71, 0.932);
+  }
+  
+  .footer h3 {
+      margin: 5px 5px 5px 260px;
+      display: inline-block;
+      text-align: center;
+      margin: center;
+  }
+  
+  .social-icons {
+      margin-left: 150px;
+      display: inline-block;
+      color: #fff;
+  }
+  
+  .fa-facebook {
+      border: 0.5px solid #7da7d9;
+      border-radius: 3px;
+      padding: 10px 10px 10px 10px;
+      background: rgba(19, 65, 216, 0.932);
+      cursor: pointer;
+  }
+  
+  .fa-envelope {
+      border: 0.5px solid #7da7d9;
+      border-radius: 3px;
+      padding: 10px 8px 10px 9px;
+      margin-left: 140px;
+      background: rgba(19, 65, 216, 0.932);
+      cursor: pointer;
+  }
+  
+  .social-icons h4 {
+      margin-left: 20px;
+      margin-right: 40px;
+      display: inline-block;
+  }
+  
+  .social-icons a {
+      color: rgb(0, 0, 0);
+  }
+  
+  hr {
+      width: 100%;
+      height: 3px;
+      background: rgb(250, 248, 248);
+      margin-top: 5px;
+  }
+  
+  p {
+      color: rgb(0, 0, 0);
+      font-weight: 500px;
+      margin-top: 15px;
+      text-align: center;
+  }
+  
+  @media screen and (max-width: 1080px) {
+      .footer h3 {
+          margin: 25px 20px 20px 25px;
+          display: inline-block;
+          text-align: center;
+      }
+  }
+  /* footer */

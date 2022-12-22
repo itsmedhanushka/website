@@ -1,0 +1,21 @@
+body {
+  background-color: #CECED6 ;
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 20%;
+  padding: 15px;
+  text-align: center;
+
+}

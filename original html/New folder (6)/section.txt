@@ -1,0 +1,13 @@
+section.table-section {
+  padding: 30px;
+}
+
+section.table-section .container {
+  display: flex;
+  justify-content: center;
+}
+
+section.table-section .table {
+  width: 50%;
+  margin-top: 30px;
+}

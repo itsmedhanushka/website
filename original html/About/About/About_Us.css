@@ -1,0 +1,138 @@
+body {
+  background-color: #CECED6 ;
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 20%;
+  padding: 15px;
+  text-align: center;
+
+}
+
+header {
+  background-color: #D6D2D1;
+}
+
+header .logo {
+  width: 175px;
+  height: 125px;
+  object-fit: cover;
+}
+
+header .top-nav-wrapper {
+  background-color: #B0AFAF;
+}
+
+header .top-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .top-nav .search-container {
+  width: 360px;
+  background-color: #ffffff;
+  border: 2px solid;
+  border-radius: 50px;
+  padding: 0px 30px;
+}
+
+header .top-nav .search-container input[type=text] {
+  background-color: #ffffff;
+  width: 300px;
+  height: 35px;
+  padding: 0px;
+  border: 0;
+}
+
+header .top-nav .search-container button {
+  background-color: #ffffff;
+  width: 50px;
+  height: 35px;
+  border: 0;
+}
+
+header .top-nav .nav-container {
+  display: flex;
+}
+
+header .top-nav .nav-container a {
+  text-decoration: none;
+}
+
+header .top-nav .nav-container .nav-link {
+  padding: 15px 30px;
+  margin-left: 2px;
+  background-color: black;
+  color: white;
+  vertical-align: middle;
+}
+
+header .top-nav-wrapper .title {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+
+}
+
+header .top-nav-wrapper .title h1 {
+  margin: 0px;
+  text-shadow: 2px 2px #000;
+}
+
+section.table-section {
+  padding: 30px;
+}
+
+section.table-section .container {
+  display: flex;
+  justify-content: center;
+}
+
+section.table-section .table {
+  width: 50%;
+  margin-top: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid;
+  padding: 15px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px
+}
+
+section.team-section {
+  padding: 30px 0px;
+}
+
+section.team-section img {
+  object-fit: contain;
+  width: 100%;
+  height: 220px;
+}
+
+section.team-section .image {
+  margin-bottom: 15px;
+  max-height: 300px;
+}
+
+section.team-section .name {
+  font-size: 20px;
+}
+
